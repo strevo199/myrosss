@@ -1,0 +1,47 @@
+.hidnarBar{
+    display: none;
+}
+
+.navLink{
+    padding: 1rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem 0 0 2rem;
+    margin-right: -3rem;
+    font-weight: bold;
+}
+
+.active{
+    background: linear-gradient(90deg,#ffdd00,#e6d56a,#204978);
+    color:#204978;
+    -webkit-transition:all ease-in-out 0.8s ;
+    -moz-transition:all ease-in-out 0.8s ;
+    -ms-transition:all ease-in-out 0.8s ;
+    -o-transition:all ease-in-out 0.8s ;
+    -webkit-border-radius: 2rem 0 0 2rem;
+    -moz-border-radius: 2rem 0 0 2rem;
+    -ms-border-radius: 2rem 0 0 2rem;
+    -o-border-radius: 2rem 0 0 2rem;
+    transition:all ease-in-out 0.8s ;
+}
+
+@media (max-width:780px){
+    .precard{
+        max-width: 95%;
+        margin: auto;
+        padding-top: 9rem;
+    }
+}
+@media (max-width:600px){
+    .precard{
+        max-width: 95%;
+        margin: auto;
+        padding-top: 10rem;
+        display: block;
+
+    }
+    .card{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+}

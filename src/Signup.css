@@ -1,0 +1,110 @@
+.signupPage{
+    background-color: #204978ce;
+    background:linear-gradient(#204978ce,#204978b2), url('./image/ImageMask.png') ;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    }
+
+.signPage_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    }
+.signPage_right{
+    flex: 2;
+    background-color: white;
+    border-radius: 40px 0 0 40px;
+    -webkit-border-radius: 40px 0 0 40px;
+    -moz-border-radius: 40px 0 0 40px;
+    -ms-border-radius: 40px 0 0 40px;
+    -o-border-radius: 40px 0 0 40px;
+}
+
+.signup{
+    padding-left: 60px  ;
+    padding-right: 50px  ;
+    padding-top: 100px;
+}
+
+.singup_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+.control_form{
+    width: 400px;
+    height: 45px;
+    margin: 15px 0;
+    padding: 15px 20px 15px 50.3px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px 0 #00000029;
+    border: solid 0.5px #204978;
+    background-color: #ffffff;
+    outline: none;
+    opacity: 0.9;
+    font-family: SegoeUI;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: #204978;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+
+  .input_field{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    left:20px;
+    top:30px;
+    z-index: 2;
+    color: #204978;
+}
+  
+@media screen and (max-width:900px) {
+    .signup_form{
+        display:block
+    }
+    .signupPage{
+        display: block;
+        min-height: 100vh;
+        overflow-y: visible;
+    }
+    .signPage_left{
+        display: none;
+    }
+    .control_form{
+        width: 90%;
+        
+    }
+    .union_1{
+        display: none;
+    }
+    .input_field_3{
+        padding-bottom: 3rem;
+    }
+    .signup{
+        padding-left: 30px  ;
+        padding-right: 10px  ;
+        padding-top: 80px;
+    }
+}

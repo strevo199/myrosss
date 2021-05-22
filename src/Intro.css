@@ -1,0 +1,22 @@
+.intro{
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(#204978ce,#204978b2), url('./image/ImageMask.png') ;
+    background-size: cover;
+}
+
+
+.YellowDesign{
+    position: absolute;
+    top: -13rem;
+    left: -18rem;
+}
+.BlueDesign{
+    position: absolute;
+    bottom: -13rem;
+    right: -14rem;
+}
+
+.intro_Content{
+    
+}

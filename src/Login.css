@@ -1,0 +1,237 @@
+
+.loginPage{
+    display: flex;
+    height: 100vh;
+    background-color: #617995; 
+}
+
+/* .narBar{
+    display: none;
+} */
+
+.loginPage_left{ 
+    background:linear-gradient(#20497881,#20497881), url('./image/ImageMask.png');
+    background-size: cover;
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footerLogin img{
+    opacity: 0.75; 
+    bottom: 2rem;
+    left: 10rem;
+    position: absolute;
+}
+.loginPage_right{
+    background-color: #ffffff;
+    flex: 2;
+    display:flex;
+    position: relative;
+    overflow: hidden;
+    border-radius:2% 0 0 8%;
+    -webkit-border-radius:2% 0 0 8%;
+    -moz-border-radius:2% 0 0 8%;
+    -ms-border-radius:2% 0 0 8%;
+    -o-border-radius:2% 0 0 8%;
+}
+
+
+.signin{
+    flex: 1;
+    padding:110px ;
+}
+.singin_header{
+    text-align: left;
+}
+.singin_header h1{
+  line-height: 1.21;
+  font-weight: 900;
+  font-size: 52px;
+  color: #707071
+  ;
+}
+.singin_header p{
+    font-size: 33px;
+    color: #707071
+
+}
+
+.union_2{
+    position: absolute;
+    height: 350.8px;
+    width: 223.3px;
+    top: -11rem;
+    right: -5.5rem;
+    color: #ffdd00;
+    transform:rotate(87deg)   ;
+    -webkit-transform:rotate(87deg)   ;
+    -moz-transform:rotate(87deg)   ;
+    -ms-transform:rotate(87deg)   ;
+    -o-transform:rotate(87deg)   ;
+}
+.union_1{
+    position: absolute;
+    height: 351.4px;
+    width: 262.7px;
+    bottom: -11rem;
+    right: -7rem;
+}
+.input_field{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    left:20px;
+    top:50px;
+    z-index: 2;
+    color: #204978;
+}
+.icon_visiblity{
+    left: 400px;
+}
+
+.control_form{
+  width: 450px;
+  height: 63px;
+  margin: 30px 0;
+  padding: 15px 20px 15px 50.3px;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #204978;
+  background-color: #ffffff;
+  outline: none;
+  opacity: 0.51;
+  font-family: SegoeUI;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #204978;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.Remember-Me-Tick-Box{
+    background-color: white;
+    border: solid 1px #204978;
+    width: 27.7px;
+    height: 27.5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    
+}
+
+.Remember{
+    width: 177px;
+  height: 37px;
+  margin: 49px;
+  font-family: SegoeUI;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.32;
+  text-align: left;
+  color: #204978;
+}
+
+.btnBule{
+    cursor: pointer;
+    outline: none;
+    background-color: #65a9f8;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+
+
+.input_field_3{
+    display: flex;
+    margin-top: 10px;
+}
+
+.Forgot-Password{
+    
+    width: 311px;
+  height: 33px;
+
+  padding-top: 5px;
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: normal;
+  text-align: right;
+  text-decoration: none;
+  color: #707071;
+}
+
+.email{
+    width: 78px;
+  height: 34px;
+  margin: 5px 0;
+  font-family: SegoeUI;
+  font-size: 20px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #65a9f8;
+  text-decoration: none;
+}
+
+.login_with{
+  margin-bottom: 5px;
+  font-family: SegoeUI;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707071;
+}
+
+.Package_Pricing{
+    width: 148px;
+  height: 37px;
+  font-family: Oswald;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.Package_Pricing a{
+    color: #ffdd00;
+    text-decoration: none;
+    font-size: 15px; 
+}
+
+.signup{
+    padding-top: 170px;
+    margin-right: 64px;
+}
+
+.new_user{
+    color: #707071;
+    font-size: 17px;
+
+}
+
+.new_user a{
+    color: #65a9f8;
+    text-decoration: none;
+}
+
+
+@media (max-width:1024){
+    
+}
